@@ -1,39 +1,38 @@
 # Hi, I'm Timur 👋
 
-Backend Engineer with 4+ years of experience.
+I'm a backend developer with 3+ years of professional experience in Go. I also work with Python and PHP in production.
 
-My main background is in fintech and telecom. I work with payment systems, microservice architectures, external integrations and production systems.
-
-## What I work with
-
-- Go
-- PostgreSQL, Redis
-- RabbitMQ
-- Docker, Kubernetes
-- REST API, gRPC
-- Prometheus, Grafana, Elasticsearch
-- PHP
+Most of my experience comes from fintech and telecom: payment processing, microservices, external integrations, and production support. I've also built RAG services for document ingestion and search.
 
 ## What I do
 
-- Build and maintain backend services
-- Develop payment flows
-- Work on service-to-service communication and system architecture
-- Investigate production incidents and fix issues at the code and integration level
-- Migrate functionality from legacy components into separate services
-- Use AI tools for code analysis, refactoring, testing and exploring technical solutions
+- Build backend services and APIs in Go and Python
+- Develop payment workflows and keep payment statuses consistent across systems
+- Integrate services with billing systems, telecom infrastructure, and external APIs
+- Build document ingestion pipelines with background processing, vector search, and reranking
+- Investigate production incidents and improve recovery after failures
+- Move functionality from legacy applications into separate services
+
+## Tech stack
+
+- **Go:** REST APIs, gRPC, RabbitMQ
+- **Python:** asyncio, Celery, RAG, LlamaIndex, OpenAI API
+- **PHP:** Yii2
+- **Data:** PostgreSQL, Redis, Oracle, MySQL, Weaviate
+- **Infrastructure:** Docker, Kubernetes, AWS S3, Git
+- **Monitoring:** Prometheus, Grafana, Elasticsearch
 
 ## Featured project
 
 ### [Skill Hub](https://github.com/egg236/skill-hub)
 
-A local context manager for AI-assisted development.
+I built Skill Hub to manage the agent instructions and skills I reuse across projects.
 
-Skill Hub manages versioned Agent Skills, Cursor Rules and reusable agent roles, allowing selected modules to be safely connected to different projects.
+It keeps Agent Skills, Cursor Rules, and reusable agent roles in versioned modules. Through a local GUI, I can select modules for a project, preview changes, and apply updates. A lock file tracks installed versions and hashes, and the tool stops if it detects local changes or conflicts.
 
-I originally built it for my own development workflow and actively use it in day-to-day work.
+I use it in my daily development workflow, alongside AI tools for exploring solutions, code analysis, refactoring, and testing.
 
-**Stack:** Node.js, vanilla JavaScript, HTML/CSS, JSON, `node:test`
+Built with Node.js, vanilla JavaScript, HTML/CSS, and `node:test`.
 
 ## Contact
 
